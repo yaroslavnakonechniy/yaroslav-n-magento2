@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd"
+>
+    <router id="standard">
+        <route id="nakonechnyi_controllerdemo" frontName="na-konechnyi-controller-demo">
+            <module name="Nakonechnyi_ControllersDemo"/>
+        </route>
+    </router>
+</config>
+
+<!--
+TODO: https://yaroslav-n-magento.local/na-konechnyi-controller-demo/foobar_yetanotherfolder/controllerclass
+-->
