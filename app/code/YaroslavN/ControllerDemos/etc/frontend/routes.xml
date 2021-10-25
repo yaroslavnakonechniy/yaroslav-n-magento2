@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd"
+>
+    <router id="standard">
+        <route id="yaroslavn_controllerdemo" frontName="yaroslav-n-controller-demo">
+            <module name="YaroslavN_ControllerDemos"/>
+        </route>
+    </router>
+</config>
+
+<!--
+https://yaroslav-n-magento.local/yaroslav-n-controller-demo/foobar_yetanotherfolder/rawresponsedemo
+-->
