@@ -4,9 +4,12 @@
       layout="1column"
 >
     <body>
+
+        <move element="footer-container" destination="page.wrapper" before="-" />
+
         <referenceContainer name="content">
-            <container name="nakonechnyi.layout.debug.footer" htmlTag="div" htmlClass="dv-campus-layout-debug">
-                <block name="nakonechnyi.layout.debug.footer.text"
+            <container name="nakonechnyi.layout.debug.container" htmlTag="div" htmlClass="dv-campus-layout-debug">
+                <block name="nakonechnyi.layout.debug.text.block"
                        class="Magento\Framework\View\Element\Text"
                        before="-"
                 >
@@ -14,6 +17,10 @@
                         <argument name="text" translate="true" xsi:type="string"><![CDATA[nakonechnyi Text block demo]]></argument>
                     </arguments>
                 </block>
+                <block class="Magento\Framework\View\Element\Template"
+                       name="nakonechnyi.layout.debug.text.block.with.template"
+                       template="Nakonechnyi_LayoutDebug::demo.phtml"
+                />
             </container>
         </referenceContainer>
     </body>
