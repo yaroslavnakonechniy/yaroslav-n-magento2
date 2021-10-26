@@ -28,6 +28,6 @@ class ForwardResponseDemo implements
     public function execute(): Forward
     {
         return $this->forwardFactory->create()
-            ->forward('jsonresponsedemo');
+            ->forward('pagejsonresponsedemo');
     }
 }
