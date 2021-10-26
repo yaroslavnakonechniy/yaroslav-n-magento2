@@ -11,12 +11,12 @@
                        before="-"
                 >
                     <arguments>
-                        <argument name="text" translate="true" xsi:type="string"><![CDATA[Html page controller PageResponseDemo]]></argument>
+                        <argument name="text" translate="true" xsi:type="string"><![CDATA[Html page controller PageJsonResponseDemo]]></argument>
                     </arguments>
                 </block>
                 <block class="Magento\Framework\View\Element\Template"
                        name="yaroslav.n.controller.demos.text.block.with.template"
-                       template="YaroslavN_ControllerDemos::demo.phtml"
+                       template="YaroslavN_ControllerDemos::demojson.phtml"
                 />
             </container>
         </referenceContainer>

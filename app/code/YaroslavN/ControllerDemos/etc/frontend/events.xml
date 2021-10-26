@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd"
 >
     <event name="layout_generate_blocks_after">
-        <observer name="yaroslavn_controller_demos_dump_merged_layout_and_handles"
+        <observer name="yaroslav_n_controller_demo_dump_merged_layout_and_handles"
                   instance="YaroslavN\ControllerDemos\Observer\DumpMergedLayoutAndHandles"
         />
     </event>
