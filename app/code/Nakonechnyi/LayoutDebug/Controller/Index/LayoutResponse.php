@@ -19,7 +19,7 @@ class LayoutResponse implements \Magento\Framework\App\Action\HttpGetActionInter
     }
 
     /**
-     * Lyaout result demo: https://yoroslav-n-magento.local/nakonechnyi_layout_debug/index/layoutresponse
+     * Lyaout result demo: https://yaroslav-n-magento.local/nakonechnyi_layout_debug/index/layoutresponse
      *
      * @return Layout
      */
