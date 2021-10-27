@@ -20,7 +20,7 @@ class PageResponseDemo implements \Magento\Framework\App\Action\HttpGetActionInt
     }
 
     /**
-     * Lyaout result demo: https://yaroslav-n-magento.local/yaroslavn_controllerdemo/foobar_yetanotherfolder/pageresponsedemo
+     * Lyaout result demo: https://yaroslav-n-magento.local/yaroslav-n-controller-demo/foobar_yetanotherfolder/pageresponsedemo
      *
      *
      * @return Page
