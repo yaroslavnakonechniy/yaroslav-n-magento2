@@ -20,7 +20,7 @@ class PageResponse implements \Magento\Framework\App\Action\HttpGetActionInterfa
     }
 
     /**
-     * Lyaout result demo: https://yoroslav-n-magento.local/na-konechnyi-layout_debug/index/pageresponse
+     * Lyaout result demo: https://yaroslav-n-magento.local/na-konechnyi-layout-debug/index/pageresponse
      *
      * @return Page
      */

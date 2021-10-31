@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd"
-      layout="2column-left"
+
 >
     <body>
 
-        <move element="footer-container" destination="page.wrapper" before="-" />
+<!--        <move element="footer-container" destination="page.wrapper" before="-" />-->
 
         <referenceContainer name="content">
             <container name="nakonechnyi.layout.debug.container" htmlTag="div" htmlClass="dv-campus-layout-debug">
@@ -21,6 +21,16 @@
                        name="nakonechnyi.layout.debug.text.block.with.template"
                        template="Nakonechnyi_LayoutDebug::demo.phtml"
                 />
+                <block class="Magento\Framework\View\Element\Template"
+                       name="nakonechnyi.layout.debug.parent.block"
+                       template="Nakonechnyi_LayoutDebug::parent_block.phtml"
+                >
+                <block class="Magento\Framework\View\Element\Template"
+                       name="nakonechnyi.layout.debug.child.block"
+                       template="Nakonechnyi_LayoutDebug::parent_block/child_block.phtml"
+                />
+
+                </block>
             </container>
         </referenceContainer>
     </body>
