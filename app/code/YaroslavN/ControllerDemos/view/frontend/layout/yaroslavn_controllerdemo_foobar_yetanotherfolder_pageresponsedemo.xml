@@ -17,7 +17,13 @@
                 <block class="Magento\Framework\View\Element\Template"
                        name="yaroslav.n.controller.demos.text.block.with.template"
                        template="YaroslavN_ControllerDemos::demo.phtml"
-                />
+                >
+                    <arguments>
+                        <argument name="url_parameter_redirectresponsedemo" xsi:type="url" path="yaroslav-n-controller-demo/foobar_yetanotherfolder/redirectresponsedemo"/>
+                        <argument name="url_parameter_pagejsonresponsedemo" xsi:type="url" path="yaroslav-n-controller-demo/foobar_yetanotherfolder/pagejsonresponsedemo"/>
+                        <argument name="url_parameter_forwardresponsedemo" xsi:type="url" path="yaroslav-n-controller-demo/foobar_yetanotherfolder/forwardresponsedemo"/>
+                    </arguments>
+                </block>
             </container>
         </referenceContainer>
     </body>
