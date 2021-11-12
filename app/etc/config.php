@@ -357,6 +357,7 @@ return [
         'Mageplaza_Core' => 1,
         'Nakonechnyi_ControllersDemo' => 1,
         'Nakonechnyi_LayoutDebug' => 1,
+        'Nakonechnyi_PersonalDiscount' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
