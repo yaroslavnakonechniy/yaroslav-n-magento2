@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YaroslavN\ControllerDemos\Observer;
+namespace YaroslavN\Cms\Observer;
 
 use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\Framework\Event\Observer;

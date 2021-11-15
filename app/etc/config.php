@@ -368,6 +368,7 @@ return [
         'Vertex_AddressValidation' => 1,
         'YaroslavN_Cms' => 1,
         'YaroslavN_ControllerDemos' => 1,
+        'YaroslavN_RegularCustomer' => 1,
         'Yotpo_Yotpo' => 1
     ]
 ];
