@@ -5,18 +5,18 @@
     <body>
         <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template"
-                   name="ya.roslavn.personal.discount.form"
+                   name="ya.roslavn.regular.customer.form"
                    template="YaroslavN_RegularCustomer::catalog/product/view/form/regular_customer_request_form.phtml"
             >
                 <arguments>
                     <argument name="request_submit_url"
-                              path="yaroslavn_personal_discount/index/request"
+                              path="yaroslavn_regularcustomer/index/request"
                               xsi:type="url"
                     />
-                    <argument name="product"
-                              helper="Magento\Catalog\Helper\Data::getProduct"
-                              xsi:type="helper"
-                    />
+<!--                    <argument name="product"-->
+<!--                              helper="Magento\Catalog\Helper\Data::getProduct"-->
+<!--                              xsi:type="helper"-->
+<!--                    />-->
                 </arguments>
             </block>
         </referenceContainer>

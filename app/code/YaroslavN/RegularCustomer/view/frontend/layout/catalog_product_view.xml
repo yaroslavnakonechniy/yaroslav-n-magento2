@@ -5,7 +5,7 @@
     <body>
         <referenceContainer name="content">
             <block class="YaroslavN\RegularCustomer\Block\Product\View\DiscountRequest"
-                   name="ya.roslavn.personal.discount.form"
+                   name="ya.roslavn.regular.customer.form"
                    template="YaroslavN_RegularCustomer::catalog/product/view/discount/personal_discount_request.phtml"
                    before="product.info.details"
             >
@@ -24,7 +24,7 @@
                 <arguments>
                     <argument name="cache_lifetime" xsi:type="number">84600</argument>
                     <argument name="request_submit_url"
-                              path="yaroslavn_personal_discount/index/request"
+                              path="yaroslavn_regularcustomer/index/request"
                               xsi:type="url"
                     />
                     <argument name="product"

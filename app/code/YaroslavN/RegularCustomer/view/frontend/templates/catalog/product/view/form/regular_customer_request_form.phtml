@@ -1,13 +1,16 @@
 <?php
 /**
+ * @var \YaroslavN\RegularCustomer\Block\Product\View\DiscountRequest $block
  * @var \Magento\Framework\Escaper $escaper
  * @var \Magento\Framework\View\Helper\SecureHtmlRenderer $secureRenderer
  */
+/** @var \Magento\Catalog\Model\Product $product */
+$product = $block->getData('product');
 ?>
-<div class="ya-roslavn-personal-discount-request">
+<div class="ya-roslavn-regular-customer-request">
     <form class="form"
-          id="ya-roslavn-personal-discount-form"
-          action=""
+          id="ya-roslavn-regular-customer-form"
+          action="<?= $escaper->escapeHtmlAttr($block->getData('request_submit_url')) ?>"
           method="post"
     >
         <fieldset class="fieldset">
@@ -39,10 +42,10 @@
         </fieldset>
         <div class="actions-toolbar">
             <div class="primary">
-
+                <?= $block->getBlockHtml('formkey') ?>
                 <input type="hidden"
                        name="product_id"
-                       value=""
+                       value="<?= $escaper->escapeHtmlAttr("1") ?>"
                 />
                 <button type="submit"
                         title="<?= $escaper->escapeHtmlAttr(__('Send Request')) ?>"

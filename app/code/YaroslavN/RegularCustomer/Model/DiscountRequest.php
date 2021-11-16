@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Nakonechnyi\PersonalDiscount\Model;
+namespace YaroslavN\RegularCustomer\Model;
 
 /**
- * @method int|string|null getDiscountRequestId()
+ * @method int|string|null getRequestId()
  * @method int|string|null getProductId()
  * @method $this setProductId(int $productId)
  * @method int|string|null getCustomerId()
@@ -14,8 +14,8 @@ namespace Nakonechnyi\PersonalDiscount\Model;
  * @method $this setName(string $name)
  * @method string|null getEmail()
  * @method $this setEmail(string $name)
- * @method string|null getMessage()
- * @method $this setMessage(string $message)
+ * @method string|null getAdminUserId()
+ * @method $this setAdminUserId(string $admin_user_id)
  * @method int|string|null getStoreId()
  * @method $this setStoreId(int $websiteId)
  * @method int|string|null getCreatedAt()
@@ -29,6 +29,6 @@ class DiscountRequest extends \Magento\Framework\Model\AbstractModel
     protected function _construct(): void
     {
         parent::_construct();
-        $this->_init(\Nakonechnyi\PersonalDiscount\Model\ResourceModel\DiscountRequest::class);
+        $this->_init(\YaroslavN\RegularCustomer\Model\ResourceModel\DiscountRequest::class);
     }
 }

@@ -20,7 +20,7 @@ class Form implements \Magento\Framework\App\Action\HttpGetActionInterface
     }
 
     /**
-     * Lyaout result demo: https://yaroslav-n-magento.local/yaroslav-n-controller-demo/foobar_yetanotherfolder/pageresponsedemo
+     * Lyaout result demo: https://yaroslav-n-magento.local/
      *
      *
      * @return Page
