@@ -5,6 +5,7 @@
         <column xsi:type="int" name="request_id" padding="10" unsigned="true" nullable="false" identity="true"
                 comment="Request ID"
         />
+        <!-- @TODO: Save product name and SKU for historical reasons -->
         <column xsi:type="int" name="product_id"  padding="10" unsigned="true" nullable="true"
                 comment="Product ID"
         />

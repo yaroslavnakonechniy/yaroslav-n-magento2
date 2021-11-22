@@ -12,7 +12,7 @@ class RemoveDemoColumnAndEmailStoreIdIndex implements \Magento\Framework\Setup\P
     private \Magento\Framework\Setup\SchemaSetupInterface $schemaSetup;
 
     /**
-     * RemoveOldForeignKeys constructor.
+     *
      * @param \Magento\Framework\Setup\SchemaSetupInterface $schemaSetup
      */
     public function __construct(
