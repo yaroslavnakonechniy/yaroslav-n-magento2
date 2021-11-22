@@ -365,6 +365,7 @@ return [
         'Vertex_RequestLoggingApi' => 1,
         'Vertex_RequestLogging' => 1,
         'Vertex_AddressValidation' => 1,
+        'YaroslavN_Catalog' => 1,
         'YaroslavN_Cms' => 1,
         'YaroslavN_ControllerDemos' => 1,
         'YaroslavN_RegularCustomer' => 1,
