@@ -16,7 +16,7 @@ return [
         'table_prefix' => 'm2_',
         'connection' => [
             'default' => [
-                'host' => 'mysql',//mysql
+                'host' => 'mysql',
                 'dbname' => 'yaroslav_n_dev',
                 'username' => 'yaroslav_n_dev_user',
                 'password' => 'yaroslav_n_dev',
@@ -117,12 +117,6 @@ return [
                     ]
                 ]
             ]
-        ]
-    ],
-    'http_cache_hosts' => [
-        [
-            'host' => '127.0.0.1',
-            'port' => '6081'
         ]
     ]
 ];
